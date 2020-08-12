@@ -25,4 +25,19 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+      public function burgers()
+    {
+        return view('foodsect.burgers');
+    }
+
+      public function drinks()
+    {
+        return view('foodsect.drinks');
+    }
+
+      public function combo()
+    {
+        return view('foodsect.combo');
+    }
 }
