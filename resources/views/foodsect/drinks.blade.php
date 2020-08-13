@@ -17,27 +17,30 @@
         <div class="row justify-content-center">
             <!-- Portfolio Items-->
             <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#drinkModal">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/burger.jpg" alt="Burgers" />
+                                class="fas fa-eye fa-3x"></i>
+                        </div>
+                    </div><img class="img-fluid" src="assets/img/drink1-min.jpg" alt="Drinks1" />
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#drinkModal">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/drinks.jpg" alt="Beverages" />
+                                class="fas fa-eye fa-3x"></i>
+                        </div>
+                    </div><img class="img-fluid" src="assets/img/drink2-min.jpg" alt="Drinks2" />
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#drinkModal">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/combo.jpg" alt="Combo Meal" />
+                                class="fas fa-eye fa-3x"></i>
+                        </div>
+                    </div><img class="img-fluid" src="assets/img/drink3-min.jpg" alt="Drinks3" />
                 </div>
             </div>
         </div>

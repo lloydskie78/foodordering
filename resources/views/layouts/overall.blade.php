@@ -46,7 +46,8 @@
 
 <body id="page-top">
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="{{ url('home') }}">PAGKAON DEALS</a>
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="{{ url('home') }}">PAGKAON DEALS
+                DAVAO</a>
             <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
                 type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
@@ -85,7 +86,7 @@
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avataaars (1).png" alt="">
             <!-- Masthead Heading-->
-            <h1 class="masthead-heading mb-0">PAGKAON DEALS</h1>
+            <h1 class="masthead-heading mb-0">PAGKAON DEALS DAVAO</h1>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>

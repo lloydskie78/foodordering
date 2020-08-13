@@ -5,7 +5,7 @@
     <div class="container">
         <!-- Portfolio Section Heading-->
         <div class="text-center">
-            <h2 class="page-section-heading text-secondary mb-0 d-inline-block">BUGERS</h2>
+            <h2 class="page-section-heading text-secondary mb-0 d-inline-block">BURGERS</h2>
         </div>
         <!-- Icon Divider-->
         <div class="divider-custom">
@@ -17,27 +17,27 @@
         <div class="row justify-content-center">
             <!-- Portfolio Items-->
             <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#burgerModal">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/burger.jpg" alt="Burgers" />
+                                class="fas fa-eye fa-3x"></i></div>
+                    </div><img class="img-fluid" src="assets/img/burger1-min.jpg" alt="Burgers1" />
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#burgerModal">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/drinks.jpg" alt="Beverages" />
+                                class="fas fa-eye fa-3x"></i></div>
+                    </div><img class="img-fluid" src="assets/img/burger2-min.jpeg" alt="Burgers2" />
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#burgerModal">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div><img class="img-fluid" src="assets/img/portfolio/combo.jpg" alt="Combo Meal" />
+                                class="fas fa-eye fa-3x"></i></div>
+                    </div><img class="img-fluid" src="assets/img/burger3-min.jpg" alt="Burgers3" />
                 </div>
             </div>
         </div>
