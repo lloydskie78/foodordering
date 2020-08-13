@@ -161,13 +161,19 @@
         <!-- About Section Content-->
         <div class="row">
             <div class="col-lg-4 ml-auto">
-                <p class="pre-wrap lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The
-                    download includes the complete source files including HTML, CSS, and JavaScript as well as
-                    optional SASS stylesheets for easy customization.</p>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex eacommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
             </div>
             <div class="col-lg-4 mr-auto">
-                <p class="pre-wrap lead">You can create your own custom avatar for the masthead, change the icon in
-                    the dividers, and add your email address to the contact form to make it fully functional!</p>
+                <p class="text-justify">
+                    Imperdiet nulla malesuada pellentesque elit eget gravida. Proin sagittis nisl rhoncus mattis
+                    rhoncusurna. Purus non nim praesent elementum facilisis. Bibendum at varius vel pharetra. Quis
+                    auctor elit sed vulputate mi sit amet mauris.
+                </p>
             </div>
         </div>
     </div>

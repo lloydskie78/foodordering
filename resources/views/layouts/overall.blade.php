@@ -30,6 +30,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Pagkaon Deals Davao</title>
     <!-- Font Awesome icons (free version)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous">
@@ -66,7 +68,7 @@
                         <a id="navbarDropdown"
                             class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger dropdown-toggle" href="#"
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            {{ Auth::user()->name }} <span class="caret"></span>
+                            {{ Str::upper(Auth::user()->name) }} <span class="caret"></span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
@@ -106,31 +108,28 @@
                 <!-- Footer Location-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="mb-4">LOCATION</h4>
-                    <p class="pre-wrap lead mb-0">2215 John Daniel Drive
-                        Clark, MO 65243</p>
+                    <p class="pre-wrap lead mb-0">DAVAO CITY</p>
                 </div>
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1"
-                        href="https://www.facebook.com/StartBootstrap"><i class="fab fa-fw fa-facebook-f"></i></a><a
-                        class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/sbootstrap"><i
-                            class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1"
-                        href="https://www.linkedin.com/in/startbootstrap"><i class="fab fa-fw fa-linkedin-in"></i></a><a
-                        class="btn btn-outline-light btn-social mx-1" href="https://www.dribble.com/startbootstrap"><i
-                            class="fab fa-fw fa-dribbble"></i></a>
+                    <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" href="#"><i
+                            class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1"
+                        href="#"><i class="fab fa-fw fa-twitter"></i></a><a
+                        class="btn btn-outline-light btn-social mx-1" href="#"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1"
+                        href="#"><i class="fab fa-fw fa-dribbble"></i></a>
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
-                    <h4 class="mb-4">ABOUT FREELANCER</h4>
-                    <p class="pre-wrap lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        Start Bootstrap</p>
+                    <h4 class="mb-4">ABOUT THIS APP</h4>
+                    <p class="pre-wrap lead mb-0">THIS APP WAS MADE FOR ABOUT 12HRS</p>
                 </div>
             </div>
         </div>
     </footer>
     <!-- Copyright Section-->
     <section class="copyright py-4 text-center text-white">
-        <div class="container"><small class="pre-wrap">Copyright © Your Website 2020</small></div>
+        <div class="container"><small class="pre-wrap">Copyright © ALCANTARA 2020</small></div>
     </section>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
     <div class="scroll-to-top d-lg-none position-fixed"><a

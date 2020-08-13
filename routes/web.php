@@ -23,3 +23,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/burgers', 'HomeController@burgers');
 Route::get('/drinks', 'HomeController@drinks');
 Route::get('/combomeals', 'HomeController@combo');
+
+Route::get('/combo/{id}', 'ItemsController@findCombo');
